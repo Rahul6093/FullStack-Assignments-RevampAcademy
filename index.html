@@ -4,124 +4,254 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rahul M S - Assignments</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+
+<!-- Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- TAILWIND CSS LINK -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>    
-    <main>
+    <main class="2xl:container mx-auto bg-gradient-to-br from-black to-slate-900 font-['MontserratAlternates']">
 
-        <h1>Hello! I am Rahul M S</h1>
 
-        <h4>As part of my Full Stack Developer course with Revamp Academy, I have compiled all the completed assignments in this page below.</h4>
+        <div class="w-[95%] mx-auto text-[white] space-y-5 text-center">
 
-    <!-- CONTENT!!! -->
-        <h3>Assignment 1 - [ GITHUB & LINKEDIN ]</h3>
-        <ul>
-            <li>To create a Linkedin account</li>
-            <li>To create a Github account</li>
-        </ul>
-    <!-- --- -->
-        <h3><a href="ASSIGNMENTS/2/index.html">Assignment 2</a> - [ HTML ]</h3>
+            <div class="py-5 space-y-1">
+                <p class="text-5xl font-[700] -tracking-tighter uppercase text-[#7091e6]">Hello! I am <span class="inline-block">Rahul M S</span></p>
+                <p class="text-lg font-semibold italic">As part of my Full Stack Developer course with Revamp Academy, I have compiled all the completed assignments in this page below.</p>
+            </div>
+
+        </div>
+        
+    <div class="w-[95%] mx-auto text-[white] grid grid-cols-1 md:grid-cols-2 gap-3 ">
+
+    <!-- Assignment-01 -->
+
+       <div class="py-5 space-y-1 border-[2px] border-[#7091e6] p-5">
+        
+            <h3 class="text-[#7091e6] text-lg font-[800] underline">Assignment 1 - [ GITHUB & LINKEDIN ]</h3>
+            
+            <ul class="w-[85%] mx-auto list-decimal list-inside italic">
+                <li>To create a Linkedin account</li>
+                <li>To create a Github account</li>
+            </ul>
+       
+        </div>
+
+    <!-- Assignment-02 -->
+
+       <div class="py-5 space-y-1 border-[2px] border-[#7091e6] p-5">
+
+           <a href="ASSIGNMENTS/2/index.html">
+                <div class="flex items-center gap-2 text-[#7091e6] hover:text-pink-700 hover:-tracking-tighter">
+                    <h3 class=" text-lg font-[800] ">
+                        Assignment 2 - [ HTML ] </h3>
+                    <svg
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        viewBox="0 0 24 24"
+                        height="1em"
+                        width="1em"
+                        {...props}
+                        >
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                    </svg>
+            </div>
+           </a>
+            
+            <p>In this assignment, I build a Web page by applying the concepts I learned till now.</p>
+
+            <h5 class="pt-4 underline underline-offset-2">Task:</h5>
+            <ol class="w-[85%] mx-auto list-decimal list-inside italic">
+                <li>CREATE HEADING FROM H1 TO H6</li> 
+                <li>CREATE A PARAGRAPH TAG  </li> 
+                <li>CREATE A BUTTON </li> 
+                <li>CREATE A Anchor Element</li>
+                    <ol class="list-inside list-disc indent-10">
+                        <li>ADD href Attribute</li>
+                        <li>ADD target Attribute</li>
+                        <li>CREATE A page.html</li>
+                        <li>LINK TO index.html to page.html</li>
+                    </ol>       
+                <li>CREATE A P TAG </li> 
+                <li>BOLDEN A WORD IN THE P TAG</li> 
+                <li>CREATE A  ORDER & UNORDERED LIST</li>
+            </ol>
+
+       </div>
+
+    <!-- Assignment-03 -->
+
+    <div class="py-5 space-y-1 border-[2px] border-[#7091e6] p-5">
+
+        <a href="ASSIGNMENTS/3/index.html">
+            <div class="flex items-center gap-2 text-[#7091e6] hover:text-pink-700 hover:-tracking-tighter">
+                <h3 class=" text-lg font-[800] ">
+                    Assignment 3 - [ HTML ] </h3>
+                <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    {...props}
+                    >
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                </svg>
+        </div>
+       </a>
         <p>In this assignment, I build a Web page by applying the concepts I learned till now.</p>
-        <h5>Task:</h5>
-        <ol>
-            <li>CREATE HEADING FROM H1 TO H6</li> 
-            <li>CREATE A PARAGRAPH TAG  </li> 
-            <li>CREATE A BUTTON </li> 
-            <li>CREATE A Anchor Element</li>
-                <ol>
-                    <li>ADD href Attribute</li>
-                    <li>ADD target Attribute</li>
-                    <li>CREATE A page.html</li>
-                    <li>LINK TO index.html to page.html</li>
-                </ol>       
-            <li>CREATE A P TAG </li> 
-            <li>BOLDEN A WORD IN THE P TAG</li> 
-            <li>CREATE A  ORDER & UNORDERED LIST</li>
-        </ol>
-    <!-- --- -->
-        <h3><a href="ASSIGNMENTS/3/index.html">Assignment 3</a> - [ HTML ]</h3>
-        <p>In this assignment, I build a Web page by applying the concepts I learned till now.</p>
 
-        <h5>Task:</h5>
-        <ol>
+        <h5 class="pt-4 underline underline-offset-2">Task:</h5>
+        <ol class="w-[85%] mx-auto list-decimal list-inside italic">
             <li>ADD IMAGE USING IMAGE TAG </li>
-            <ul>
-                <li>Image SOURCE VIA Local Storage </li>
-                <li>Image Source VIA CDN</li>
-            </ul> 
+                <ul class="list-inside list-disc indent-6">
+                    <li>Image source via Local Storage </li>
+                    <li>Image Source via CDN</li>
+                </ul> 
 
             <li>ADD VIDEO USING VIDEO TAG</li>
-            <ul>
-                <li>Video Source VIA CDN </li>
-            </ul> 
+                <ul class="list-inside list-disc indent-6">
+                    <li>Video Source VIA CDN </li>
+                </ul> 
 
             <li>CREATE A BASIC FORM </li>
-            <ul>
-                <li>With Label : USERNAME , Password</li>
-                <li>With Placeholder : ENTER USERNAME , ENTER PASSWORD</li>
-            </ul> 
+                <ul class="list-inside list-disc indent-6">
+                    <li>With Label : Username , Password</li>
+                    <li>With Placeholder : Enter Username , Enter Password</li>
+                </ul> 
 
             <li>ADD HTML ENTITIES TO WEB PAGE</li>
+                <ol class="list-inside list-disc indent-6">       
+                    <li>Create A P Tag </li> 
+                    <li>Bolden A word in the P Tag</li> 
+                    <li>Create a Ordered & Unordered List</li>
+                </ol>
         </ol>
-    <!-- --- -->
-        <h3>Assignment 4 - [ GIT DEPLOYMENT ]</h3>
+
+   </div>
+     
+    <!-- Assignment-04 -->
+
+    <div class="py-5 space-y-1 border-[2px] border-[#7091e6] p-5">
+
+        <h3 class="text-[#7091e6] text-lg font-[800] underline">Assignment 4 - [ GIT DEPLOYMENT ]</h3>
         <p>In this assignment, I deployed a static Web page.</p>
         
-        <h5>Task:</h5>
-        <ol>
+        <h5 class="pt-4 underline underline-offset-2">Task:</h5>
+            <ol class="w-[85%] mx-auto list-decimal list-inside italic">
                 <li> Create a GitHub Repository</li>
                 <li> Take Any of Your Assignment</li>
                 <li> Commit and push you code to Remote GitHub Repository</li>
                 <li> Goto Github Pages and Deploy your static web page</li>
             </ol>
-    <!-- --- -->
-        <h3><a href="ASSIGNMENTS/5/index.html">Assignment 5</a> - [ HTML & CSS ]</h3>
+    
+    </div>  
+
+    <!-- Assingment-05 -->
+
+    <div class="py-5 space-y-1 border-[2px] border-[#7091e6] p-5">
+
+        <a href="ASSIGNMENTS/5/index.html">
+            <div class="flex items-center gap-2 text-[#7091e6] hover:text-pink-700 hover:-tracking-tighter">
+                <h3 class=" text-lg font-[800] ">
+                    Assignment 5 - [ HTML & CSS ] </h3>
+                <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    {...props}
+                    >
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                </svg>
+        </div>
+       </a>
         <p>In this assignment, I build a Web page by applying the concepts I learned till now.</p>
 
-        <h5>Task:</h5>
-        <ol>
+        <h5 class="pt-4 underline underline-offset-2">Task:</h5>
+        <ol class="w-[85%] mx-auto list-inside list-decimal italic">
             <li>SET UP HTML STRUCTURE</li>
             <li>ADD HEADERS AND PARAGRAPHS</li>
             <li>STYLE TEXT PROPERTIES
-                <ul>
-                    <li class="bullet-margin-top-spacing">Use font-family: Apply "Roboto", sans-serif to all text.</li>
+                <ul class="list-inside list-disc indent-6">
+                    <li>Use font-family: Apply "Roboto", sans-serif to all text.</li>
                     <li>Use color: Set the text color to white for all text.</li>
                 </ul>
             </li>
             <li>SET BACKGROUND PROPERTIES
-                <ul>
-                    <li class="bullet-margin-top-spacing">Use background-image: Add a background image.</li>
+                <ul class="list-inside list-disc indent-6">
+                    <li>Use background-image: Add a background image.</li>
                     <li>Use background-size: Set to cover to ensure the image covers the entire viewport.</li>
                 </ul>
             </li>
             <li>CENTER ALIGN TEXT
-                <ul>
-                    <li class="bullet-margin-top-spacing">Center align headings, paragraphs, and links.</li>
+                <ul class="list-inside list-disc indent-6">
+                    <li>Center align headings, paragraphs, and links.</li>
                 </ul>
             </li>
             <li>STYLE HEADING AND PARAGRAPH MARGINS
-                <ul>
-                    <li class="bullet-margin-top-spacing">Set margins for headings and paragraphs to create space between elements.</li>
+                <ul class="list-inside list-disc indent-6">
+                    <li>Set margins for headings and paragraphs to create space between elements.</li>
                 </ul>
             </li>
             <li>STYLE BUTTON
-                <ul>
-                    <li class="bullet-margin-top-spacing">Add a button element labeled "Start".</li>
+                <ul class="list-inside list-disc indent-6">
+                    <li>Add a button element labeled "Start".</li>
                     <li>Set the button background color and size.</li>
                 </ul>
             </li>
             <li>ADD LINK WITH STYLES
-                <ul>
-                    <li class="bullet-margin-top-spacing">Style the link for appropriate font size.</li>
+                <ul class="list-inside list-disc indent-6">
+                    <li>Style the link for appropriate font size.</li>
                 </ul>
             </li>
         </ol>
-    <!-- --- -->
-        <h3><a href="ASSIGNMENTS/6/index.html">Assignment 6</a> - [ HTML & TAILWIND CSS ]</h3>
+
+    </div>
+
+    <!-- Assignment-06 -->
+
+    <div class="py-5 space-y-1 border-[2px] border-[#7091e6] p-5">
+
+        <a href="ASSIGNMENTS/6/index.html">
+            <div class="flex items-center gap-2 text-[#7091e6] hover:text-pink-700 hover:-tracking-tighter">
+                <h3 class=" text-lg font-[800] ">
+                    Assignment 6 - [ HTML & TAILWIND CSS ] </h3>
+                <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    {...props}
+                    >
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                </svg>
+        </div>
+       </a>
         <p>In this assignment, I build a chat page using Tailwind CSS.</p>
 
-        <h5>Features:</h5>
-        <ol>
+        <h5 class="pt-4 underline underline-offset-2">Features:</h5>
+        <ol class="w-[85%] mx-auto list-inside list-decimal italic">
             <li>Width and Height</li>
             <li>Background color, Background Image, Background cover</li>
             <li>Font size, Font color, Font weight, Font family</li>
@@ -131,11 +261,35 @@
             <li>Flex and its properties</li>
         </ol>
 
-        <h3><a href="PROJECTS/food-store.html">Project 1</a> - [ HTML & TAILWIND CSS ]</h3>
+    </div>
+
+    <!-- Project-01 -->
+
+    <div class="py-5 space-y-1 border-[2px] border-[#7091e6] p-5">
+
+        <a href="PROJECTS/food-store.html">
+            <div class="flex items-center gap-2 text-[#7091e6] hover:text-pink-700 hover:-tracking-tighter">
+                <h3 class=" text-lg font-[800] ">
+                    PROJECT 1 - [ HTML & TAILWIND CSS ] </h3>
+                <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    {...props}
+                    >
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                </svg>
+        </div>
+       </a>
         <p>In this assignment, I build a Food Store Website using Tailwind CSS.</p>
 
-        <h5>Features:</h5>
-        <ol>
+        <h5 class="pt-4 underline underline-offset-2">Features:</h5>
+        <ol class="w-[85%] mx-auto list-inside list-decimal italic">
             <li>Responsive Design: Adapts to mobile, tablet, and desktop devices, improving accessibility.</li>
             <li>Engaging Hero Section: Attractive banner with CTAs to grab attention and guide users.</li>
             <li>Product Categories: Easy navigation of food types, enhancing user experience.</li>
@@ -146,5 +300,8 @@
         </ol>
     </main>
 
+    </div>
+
+</div>
 </body>
 </html>
